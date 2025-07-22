@@ -1,7 +1,7 @@
-class Drink extends Restaurant{
-    private String type;
-    private DrinkSize size;
-    private double basePrice;
+class Drink {
+    protected String type;
+    protected DrinkSize size;
+    protected double basePrice;
 
     public Drink(String type, DrinkSize size) {
         this.type = type;
